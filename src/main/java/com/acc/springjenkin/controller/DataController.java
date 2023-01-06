@@ -10,4 +10,9 @@ public class DataController {
     public String getData(){
         return "Hello World...!";
     }
+
+    @GetMapping("/test")
+    public String testData(){
+        return "Test Branch...!";
+    }
 }
