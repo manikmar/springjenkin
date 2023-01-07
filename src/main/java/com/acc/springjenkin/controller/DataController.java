@@ -15,4 +15,11 @@ public class DataController {
     public String testData(){
         return "Test Branch...!";
     }
+
+    @GetMapping("/invoke")
+    public String invokeData(){
+        return "invoke method from DataController...!";
+    }
+
+
 }
