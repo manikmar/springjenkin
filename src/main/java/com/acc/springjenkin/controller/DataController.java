@@ -21,5 +21,12 @@ public class DataController {
         return "invoke method from DataController...!";
     }
 
+    @GetMapping("/naga")
+    public String nagaData(){
+        return "invoke method from DataController...!";
+    }
+
+
+
 
 }
